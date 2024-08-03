@@ -7,12 +7,16 @@ public class Variables{
         boolean status = true;
         float  discout = 10.20f;
 
+        int x = 5, y=3, z = 10;
 
-
+        
         System.out.println("Hello " + Name);
         System.out.println(Letter);
         System.out.println(Numbers);
         System.out.println(status);
         System.out.println(discout);
+
+        System.out.println(x + y + z);
+
     }
 }
